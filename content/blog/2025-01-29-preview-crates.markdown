@@ -50,7 +50,7 @@ const_preview::const_item! {
 Interally, this `const_item!` macro can make use of internal APIs in the compiler to parse the contents and deploy the special semantics.
 
 ### Releasing v2.0
-Now, maybe we use this for a while, and we find that people really don't like the `~`, so we decide to change the syntax. Perhaps we opt to write `const Default` instead of `~const Default`. No problem, we release a 2.0 version of the crate and we also rewrite 1.0 to take in the tokens and invoke 2.0 using the [semver trick])(https://github.com/dtolnay/semver-trick).
+Now, maybe we use this for a while, and we find that people really don't like the `~`, so we decide to change the syntax. Perhaps we opt to write `const Default` instead of `~const Default`. No problem, we release a 2.0 version of the crate and we also rewrite 1.0 to take in the tokens and invoke 2.0 using the [semver trick](https://github.com/dtolnay/semver-trick).
 
 ```rust
 const_preview::const_item! {
